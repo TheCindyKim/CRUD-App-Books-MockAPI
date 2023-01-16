@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Week 12 Final</title>
+</head>
+<body class="container">
+    <h1>Books</h1> <br>
+
+    <!-- Form to post, update or delete -->
+    <form id="form-id" method="POST">
+        <div class="row">
+            <div class="col">
+                <input type="text" id="bookTitle" class="form-control" placeholder="Book Title">
+            </div>
+
+            <div class="col">
+                <input type="text" id="bookPurchased" class="form-control" placeholder="Purchase">
+            </div>
+
+            <div class="col">
+                <input type="text" id="bookAuthor" class="form-control" placeholder="Author">
+            </div> 
+
+            <button type="submit" class="btn btn-light form-control" id="submit-button">Submit</button>
+        </div> 
+    </form> 
+
+    <br>
+
+    <!-- Table for showing data -->
+    <table id="booksTable" class="table">
+        <tr>
+            <th>Book</th>
+            <th>Purchase</th>
+            <th>Author</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+
+        <tbody id='tableData'>
+            
+        </tbody>
+    </table>
+</body>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="app.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</html>
+
