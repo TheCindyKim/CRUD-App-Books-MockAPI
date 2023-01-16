@@ -51,6 +51,7 @@ tbData.addEventListener('click', (e) => {
             .then(() => location.reload())
     }
 
+//    Edit button as of right now does not work
     if(editBtn) {
         const editBook = e.target.parentElement;
         let valueTitle = editBook.querySelector('.title-value').innerHTML;
