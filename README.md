@@ -1,1 +1,1 @@
-This week's final project for Week 12 we are creating a full CRUD application using either API or local array. Use a form to pose new entities and build a way for users to update or delete entities. Also include Bootstrap and CSS to style our project.
+Full CRUD application using Mock API. Used a form to pose new entities and build a way for users to update or delete entities. Also included Bootstrap and CSS to style the project.
